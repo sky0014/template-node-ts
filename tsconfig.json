@@ -8,7 +8,7 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
-    "lib": ["ESNext", "DOM"],
+    "lib": ["ESNext"],
     "types": ["node"]
   },
   "include": ["./src/**/*"],

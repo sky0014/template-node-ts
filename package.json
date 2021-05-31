@@ -4,11 +4,12 @@
   "description": "${PROJECT_DESCRIPTION}",
   "main": "dist/index.js",
   "scripts": {
-    "start": "set DEBUG=*,-babel && npm run build && node dist/index.js",
+    "start": "npm run build && node dist/index.js",
     "build": "tsc"
   },
   "author": "${AUTHOR} <${EMAIL}>",
   "devDependencies": {
+    "@types/node": "^15.6.1",
     "typescript": "^4.3.2"
   }
 }
