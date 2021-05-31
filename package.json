@@ -1,0 +1,14 @@
+{
+  "name": "${PROJECT_NAME}",
+  "version": "1.0.0",
+  "description": "${PROJECT_DESCRIPTION}",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "set DEBUG=*,-babel && npm run build && node dist/index.js",
+    "build": "tsc"
+  },
+  "author": "${AUTHOR} <${EMAIL}>",
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
